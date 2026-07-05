@@ -1,27 +1,85 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Dieter Pankratz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <h1>Dieter Pankratz</h1>
-      <p>Location: Berlin</p>
-      <p>Occupation: Software Engineer</p>
+    <div class="main">
+      <div class="profile-pic">
+        <img src="self.jpg" alt="Dieter Pankratz" />
+      </div>
 
-      <h2>Work</h2>
-      <p>Current: Your current role or project</p>
+      <div class="main-content">
+        <div class="info-table">
+          <div><strong>Name:</strong> <label>Dieter Pankratz</label></div>
+          <div><strong>Location:</strong> <label>Berlin</label></div>
+          <div>
+            <strong>Occupation:</strong> <label>Software Engineer</label>
+          </div>
+          <div>
+            <strong>Links:</strong>
+            <label>
+              <a href="mailto:pankratzdieter@googlemail.com">Email</a> <i>|</i>
+              <a href="https://github.com/dpankratz1">Github</a>
+            </label>
+          </div>
+        </div>
 
-      <h2>Logbook</h2>
-      <p><strong>05.07.2026</strong></p>
-      <p>Started this website.</p>
+        <div class="work-table">
+          <h3><span>Work</span></h3>
 
-      <h2>Blog</h2>
-      <ul>
-        <li>05.07.2026 My First Post</li>
-      </ul>
-    </main>
+          <div class="row">
+            <label class="green">Current</label>
+            <span>Your current role or project</span>
+          </div>
+
+          <div class="row">
+            <label class="red">Past</label>
+            <span>Previous roles, companies, or projects</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="row">
+            <label class="green">Projects</label>
+            <span
+              ><a href="#">Project One</a>, <a href="#">Project Two</a></span
+            >
+          </div>
+
+          <div class="row">
+            <label>Open-source</label>
+            <span
+              ><a href="https://github.com/dpankratz1">Github projects</a></span
+            >
+          </div>
+        </div>
+
+        <div class="logbook">
+          <h3><span>Logbook</span></h3>
+          <div class="entries">
+            <div class="entry">
+              <span>05.07.2026</span>
+              <div>Started this website.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog">
+          <h3><span>Blog</span></h3>
+          <div class="posts">
+            <ul>
+              <li>
+                <span class="date">05.07.2026</span>
+                <a href="#">My First Post</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
