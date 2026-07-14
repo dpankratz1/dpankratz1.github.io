@@ -84,7 +84,7 @@ a {
 }
 
 .hero-copy .line + .line {
-  margin-top: 0.18em;
+  margin-top: 0;
 }
 
 .hero-copy .line-primary {
@@ -213,7 +213,7 @@ a {
   }
 
   .hero-copy .line + .line {
-    margin-top: 0.24em;
+    margin-top: 0;
   }
 
   .hero-copy .line-muted {
