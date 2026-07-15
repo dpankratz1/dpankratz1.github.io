@@ -93,7 +93,12 @@ a {
 
 .hero-copy .line-muted {
   color: #a7a7aa;
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.hero-copy .line-tagline {
+  max-width: 10.5ch;
+  text-wrap: balance;
 }
 
 .hero-copy .line a {
